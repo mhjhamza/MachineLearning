@@ -38,6 +38,8 @@ for line in fh:
     if line.rstrip().startswith('From '):
         var = line.split()
         print(var[1])
+        print(var[1])
+        print(var[1])
 
         #        var[2]
         #        res = lst
